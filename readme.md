@@ -4,7 +4,7 @@ Master Go by building real-world tools, APIs, and real-time systems in just 30 d
 
 ---
 
-### 🔧 Days 1–10
+### 🔧 Days 1–30
 
  | Day | Task |
  |-----|------|
