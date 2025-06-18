@@ -39,7 +39,7 @@ func main() {
 // 	e.Name = newName
 // }
 
-// func main() {
+// func main0() {
 // 	jobs := Employee{
 // 		Name:     "sthita",
 // 		Age:      12,
@@ -66,7 +66,7 @@ func main() {
 // // moved array code inside main function
 // // slices and maps can be added here as needed
 
-// func main() {
+// func main1() {
 // 	arr1 := [5]int{1, 2, 4, 24, 4}
 // 	sum := 0
 
@@ -83,7 +83,7 @@ func main() {
 
 // // slices
 
-// func main() {
+// func main2() {
 // 	var z [5]int = [5]int{1, 2, 3, 4, 5}
 // 	var s []int = z[1:3]
 // 	fmt.Println(len(s[:cap(s)]))
@@ -94,4 +94,4 @@ func main() {
 // 	fmt.Printf("%T\n", a)
 // }
 
-//maps
+// // maps
