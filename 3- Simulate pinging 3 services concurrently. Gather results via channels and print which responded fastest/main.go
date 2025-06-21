@@ -3,10 +3,16 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"time"
 )
 
-// tasks
+func pingService(name string, ch chan string) {
+	// Simulate variable response time
+	delay := time.Duration(rand.Intn(1000)) * time.Millisecond
+	time.Sleep(delay)
+	ch <- name
+}
 
 // Goroutine example
 func somefunc(num string) {
@@ -80,6 +86,19 @@ func forSelectLoop() {
 }
 
 func main() {
+
+	rand.Seed(time.Now().UnixNano()) // Seed randomness
+
+	ch := make(chan string)
+
+	// Launch 3 service pings concurrently
+	go pingService("Service A", ch)
+	go pingService("Service B", ch)
+	go pingService("Service C", ch)
+
+	// Receive the first response
+	fastest := <-ch
+	fmt.Println("Fastest response from:", fastest)
 
 	go somefunc("1")
 	go somefunc("2")
