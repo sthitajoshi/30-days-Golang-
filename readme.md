@@ -50,6 +50,3 @@ Master Go by building real-world tools, APIs, and real-time systems in just 30 d
 - 🧼 Clean code, logs, traceability, and service discovery  
 
 ---
-
-> 💡 Tip: Commit your progress daily. Keep your GitHub green and your skills sharp!
-
