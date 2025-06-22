@@ -9,7 +9,7 @@ import (
 
 func pingService(name string, ch chan string) {
 	// Simulate variable response time
-	delay := time.Duration(rand.Intn(1000)) * time.Millisecond
+	delay := time.Duration(rand.Intn(100)) * time.Millisecond
 	time.Sleep(delay)
 	ch <- name
 }
