@@ -4,7 +4,7 @@ Master Go by building real-world tools, APIs, and real-time systems in just 30 d
 
 ---
 
-### 🔧 Days 1–30
+###  Days 1–30
 
  | Day | Task |
  |-----|------|
@@ -14,7 +14,7 @@ Master Go by building real-world tools, APIs, and real-time systems in just 30 d
  | 4 | 🧾 Read YAML config, run `docker ps`, log output |
  | 5 | 📈 Monitor CPU/RAM usage, expose Prometheus-style `/metrics` |
  | 6 | 🐳 List Docker containers using Docker SDK in Go | 
- | 7 | ☸️ Create and delete Kubernetes pods using `client-go` |
+ | 7 | ☸️ Create and delete Kubernetes pods using `client-go` |cd 
  | 8 | 📦 Collect and forward logs via HTTP (log aggregator) |
  | 9 | ⚙️ Build CLI to load `.env`, validate, and inject vars |
 | 10 | 🚨 Monitor & send webhook alerts (DevOps alert bot) |
