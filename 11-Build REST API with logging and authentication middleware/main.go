@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-// THESE ALL ARE FOR LEARING PROPOSE
+// // THESE ALL ARE FOR LEARING PROPOSE
 
 // //The standard pattern
 // func messageHandler(message string) http.Handler {
@@ -116,6 +116,10 @@ import (
 // 	err := http.ListenAndServe(":3000", middlewareOne(middlewareTwo(mux)))
 // 	log.Fatal(err)
 // }
+
+
+
+// Build REST API with logging and authentication middleware
 
 func serverHeader(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
